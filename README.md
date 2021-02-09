@@ -2,7 +2,7 @@
 
 ![Hello](img/hello_world_gif.gif)
 
-A simple language support for all types of pseudocode.
+Simple syntax highlighting and language support for various types of pseudocode.
 
 ## Features
 
