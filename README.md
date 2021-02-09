@@ -1,5 +1,7 @@
 # pseudocode-language-support
 
+![Hello](img/hello_world_gif.gif)
+
 A simple language support for all types of pseudocode.
 
 ## Features
@@ -22,8 +24,14 @@ Not all language features added yet, feel free to request any that are currently
 
 Initial release of Pseudocode Language Support, with base features highlighting functions, constants, and common operators.
 
-## 1.0.1
+### 1.0.1
 
 Added standard functions, types, and more keyword highlighting.
 
------------------------------------------------------------------------------------------------------------
+## Images
+
+![Insertion Sort](img/insertion_sort.png)
+
+![Binary Search](img/binary_search.png)
+
+![Hello World](img/hello_world.png)
