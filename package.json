@@ -1,7 +1,7 @@
 {
     "name": "pseudocode-language-support",
     "displayName": "Pseudocode Language Support",
-    "description": "",
+    "description": "Syntax Highlighting for Pseudocode",
     "publisher": "JoelBeedle",
     "repository": {
         "url": "https://github.com/joelbeedle/pseudocode-vscode"
