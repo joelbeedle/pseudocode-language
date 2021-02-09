@@ -1,0 +1,58 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Pseudocode",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#function"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.pseudo",
+				"match": "\\b(if|while|for|return|then|do|end|endif|endfor|endwhile|else|not)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.pseudo",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.pseudo",
+					"match": "\\\\."
+				}
+			]
+		},
+		"numbers": {
+			"name": "constant.numeric.pseudocode",
+			"match": "[0-9]+|\\b(inf|infinity|none|null|None|True|False|true|false|TRUE|FALSE)"
+		},
+		"function" : {
+			"patterns": [{
+				"match": "\\b(Function|Procecure|function|procedure|func|proc)\\s([[:alpha:]]+)\\(",
+				"captures": {
+					"1": {
+						"name": "entity.name.function.pseudocode"
+					},
+					"2": {
+						"name": "storage.type.pseudocode"
+					},
+					"3": {
+						"name": "entity.name.method.pseudocode"
+					}
+				}
+			}]
+		}
+	},
+	"scopeName": "source.pseudo"
+}
