@@ -26,7 +26,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.pseudo",
-					"match": "\\b(if|while|for|return|then|do|end|and|or|endif|endfor|endwhile|else|not|foreach|endforeach|allocate|raise|to)\\b"
+					"match": "\\b(if|while|for|return|then|do|end|and|or|endif|endfor|endwhile|else|not|foreach|endforeach|allocate|raise|to|void|static|private|public|class)\\b"
 				}
 			]
 		},
