@@ -15,7 +15,10 @@
 			"include": "#function"
 		},
 		{
-			"include": "types"
+			"include": "#types"
+		},
+		{
+			"include": "#stdfuncs"
 		}
 	],
 	"repository": {
@@ -23,7 +26,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.pseudo",
-					"match": "\\b(if|while|for|return|then|do|end|endif|endfor|endwhile|else|not|foreach|endforeach|allocate)\\b"
+					"match": "\\b(if|while|for|return|then|do|end|and|or|endif|endfor|endwhile|else|not|foreach|endforeach|allocate|raise|to)\\b"
 				}
 			]
 		},
@@ -40,7 +43,7 @@
 		},
 		"numbers": {
 			"name": "constant.numeric.pseudo",
-			"match": "[0-9]+|\\b(inf|infinity|none|null|None|True|False|true|false|TRUE|FALSE)"
+			"match": "[0-9]+|\\b(inf|infinity|none|null|None|True|False|true|false|TRUE|FALSE|Empty|empty)\\b"
 		},
 		"function": {
 			"patterns": [
@@ -51,7 +54,7 @@
 							"name": "entity.name.function.pseudo"
 						},
 						"2": {
-							"name": "storage.type.pseudo"
+							"name": "entity.name.method.pseudo"
 						},
 						"3": {
 							"name": "entity.name.method.pseudo"
@@ -66,6 +69,14 @@
 					"name": "entity.name.type.pseudo",
 					"match": "\\b(int|Int|Integer|String|string|str|tuple|Tuple|Array|array|List|list|dictionary|Dictionary|dict|Dict|double|long|float)\\b"
 
+				}
+			]
+		},
+		"stdfuncs": {
+			"patterns": [
+				{
+					"name": "entity.name.function.pseudo",
+					"match": "\\b(print|size|length|insert|add|append|sum|indexOf|contains|remove|pop|clear)\\b"
 				}
 			]
 		}
