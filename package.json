@@ -3,6 +3,9 @@
     "displayName": "Pseudocode Language Support",
     "description": "",
     "publisher": "JoelBeedle",
+    "repository": {
+        "url": "https://github.com/joelbeedle/pseudocode-vscode"
+    },
     "version": "1.0.3",
     "engines": {
         "vscode": "^1.53.0"
