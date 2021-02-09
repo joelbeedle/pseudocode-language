@@ -4,9 +4,9 @@ A simple language support for all types of pseudocode.
 
 ## Features
 
->Multiple different styles of pseudocode
->Full syntax highlighting to make your code easier to work with and read
->Autocompletion and auto-indenting with {}()\!\[].
+- Multiple different styles of pseudocode
+- Full syntax highlighting to make your code easier to work with and read
+- Autocompletion and auto-indenting with {}()\[].
 
 Simply start editing a standard text file with a .pseudo extension to see the highlighting!
 
