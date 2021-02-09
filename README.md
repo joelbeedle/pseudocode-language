@@ -28,7 +28,10 @@ Initial release of Pseudocode Language Support, with base features highlighting 
 
 Added standard functions, types, and more keyword highlighting.
 
-<<<<<<< HEAD
+### 1.0.2
+
+Added C style keywords
+
 ## Images
 
 ![Insertion Sort](img/insertion_sort.png)
@@ -37,9 +40,3 @@ Added standard functions, types, and more keyword highlighting.
 
 ![Hello World](img/hello_world.png)
 =======
-## 1.0.2
-
-Added C style keywords
-
------------------------------------------------------------------------------------------------------------
->>>>>>> 95996fabef8f08b35133d28e8abf5d7c228f2a1e
