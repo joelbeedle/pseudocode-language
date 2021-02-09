@@ -32,6 +32,10 @@ Added standard functions, types, and more keyword highlighting.
 
 Added C style keywords
 
+### 1.0.3
+
+Fixed bugs, and added more keywords & types
+
 ## Images
 
 ![Insertion Sort](img/insertion_sort.png)
