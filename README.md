@@ -1,20 +1,20 @@
 # pseudocode-language-support
 
-A simple language support for all types of pseudocode, to make scaffolding out your algorithms easier.
+A simple language support for all types of pseudocode.
 
 ## Features
 
 - Multiple different styles of pseudocode supported
 - Full syntax highlighting to make your code easier to work with and read
-- Autocompletion and auto-indenting
+- Auto-completion and auto-indenting
 - Standard functions (such as `print()`, `length()`) highlighted for ease of reading
-- Supports pythonic, ruby-esque and C style pseudocode
+- Supports pythonic, and C style pseudocode, as well as Textbook-based pseudocode.
 
-Simply start editing a standard text file with a `.pseudo` extension to see the highlighting!
+Start editing a standard text file with a `.pseudo` extension to see the highlighting
 
 ## Known Issues
 
-Not all language features added yet, feel free to request any that are currently missing!
+Not all language features added yet, feel free to request any that are currently missing
 
 ## Release Notes
 
