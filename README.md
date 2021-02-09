@@ -12,11 +12,9 @@ Simply start editing a standard text file with a .pseudo extension to see the hi
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Not all language features added yet, feel free to request any that are currently missing! 
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
