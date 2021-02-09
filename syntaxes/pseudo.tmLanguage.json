@@ -13,14 +13,19 @@
 		},
 		{
 			"include": "#function"
+		},
+		{
+			"include": "types"
 		}
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.pseudo",
-				"match": "\\b(if|while|for|return|then|do|end|endif|endfor|endwhile|else|not)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.pseudo",
+					"match": "\\b(if|while|for|return|then|do|end|endif|endfor|endwhile|else|not|foreach|endforeach|allocate)\\b"
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.pseudo",
@@ -37,21 +42,27 @@
 			"name": "constant.numeric.pseudocode",
 			"match": "[0-9]+|\\b(inf|infinity|none|null|None|True|False|true|false|TRUE|FALSE)"
 		},
-		"function" : {
-			"patterns": [{
-				"match": "\\b(Function|Procecure|function|procedure|func|proc)\\s([[:alpha:]]+)\\(",
-				"captures": {
-					"1": {
-						"name": "entity.name.function.pseudocode"
-					},
-					"2": {
-						"name": "storage.type.pseudocode"
-					},
-					"3": {
-						"name": "entity.name.method.pseudocode"
+		"function": {
+			"patterns": [
+				{
+					"match": "\\b(Function|Procecure|function|procedure|func|proc)\\s([[:alpha:]]+)\\(",
+					"captures": {
+						"1": {
+							"name": "entity.name.function.pseudocode"
+						},
+						"2": {
+							"name": "storage.type.pseudocode"
+						},
+						"3": {
+							"name": "entity.name.method.pseudocode"
+						}
 					}
 				}
-			}]
+			]
+		},
+		"types": {
+			"name": "entity.name.type",
+			"match": "\\b(int|Int|Integer|String|string|str|tuple|Tuple|Array|array|List|list|dictionary|Dictionary|dict|Dict|double|long|float)"
 		}
 	},
 	"scopeName": "source.pseudo"
