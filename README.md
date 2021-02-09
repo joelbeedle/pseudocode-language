@@ -12,13 +12,12 @@ Simply start editing a standard text file with a .pseudo extension to see the hi
 
 ## Known Issues
 
-Not all language features added yet, feel free to request any that are currently missing! 
+Not all language features added yet, feel free to request any that are currently missing!
 
 ## Release Notes
 
 ### 1.0.0
 
 Initial release of Pseudocode Language Support, with base features highlighting functions, constants, and common operators.
-
 
 -----------------------------------------------------------------------------------------------------------
