@@ -39,7 +39,7 @@
 			]
 		},
 		"numbers": {
-			"name": "constant.numeric.pseudocode",
+			"name": "constant.numeric.pseudo",
 			"match": "[0-9]+|\\b(inf|infinity|none|null|None|True|False|true|false|TRUE|FALSE)"
 		},
 		"function": {
@@ -48,21 +48,26 @@
 					"match": "\\b(Function|Procecure|function|procedure|func|proc)\\s([[:alpha:]]+)\\(",
 					"captures": {
 						"1": {
-							"name": "entity.name.function.pseudocode"
+							"name": "entity.name.function.pseudo"
 						},
 						"2": {
-							"name": "storage.type.pseudocode"
+							"name": "storage.type.pseudo"
 						},
 						"3": {
-							"name": "entity.name.method.pseudocode"
+							"name": "entity.name.method.pseudo"
 						}
 					}
 				}
 			]
 		},
 		"types": {
-			"name": "entity.name.type",
-			"match": "\\b(int|Int|Integer|String|string|str|tuple|Tuple|Array|array|List|list|dictionary|Dictionary|dict|Dict|double|long|float)"
+			"patterns": [
+				{
+					"name": "entity.name.type.pseudo",
+					"match": "\\b(int|Int|Integer|String|string|str|tuple|Tuple|Array|array|List|list|dictionary|Dictionary|dict|Dict|double|long|float)\\b"
+
+				}
+			]
 		}
 	},
 	"scopeName": "source.pseudo"
