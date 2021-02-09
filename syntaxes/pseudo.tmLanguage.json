@@ -76,7 +76,7 @@
 			"patterns": [
 				{
 					"name": "entity.name.function.pseudo",
-					"match": "\\b(print|size|length|insert|add|append|sum|indexOf|contains|remove|pop|clear)\\b"
+					"match": "\\b(floor|ceil|avg|mean|mode|median|print|size|length|insert|add|append|sum|indexOf|contains|remove|pop|clear)\\b"
 				}
 			]
 		}
