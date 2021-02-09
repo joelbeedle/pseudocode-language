@@ -26,4 +26,8 @@ Initial release of Pseudocode Language Support, with base features highlighting 
 
 Added standard functions, types, and more keyword highlighting.
 
+## 1.0.2
+
+Added C style keywords
+
 -----------------------------------------------------------------------------------------------------------
