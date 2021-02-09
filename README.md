@@ -1,6 +1,6 @@
 # pseudocode-language-support
 
-![Hello](https://github.com/joelbeedle/pseudocode-vscode/blob/main/img/hello_world_gif.gif)
+![Hello](https://github.com/joelbeedle/pseudocode-vscode/blob/main/img/hello_world_gif.gif?raw=true)
 
 Simple syntax highlighting and language support for various types of pseudocode.
 
@@ -38,9 +38,9 @@ Fixed bugs, and added more keywords & types
 
 ## Images
 
-![Insertion Sort](https://github.com/joelbeedle/pseudocode-vscode/blob/main/img/insertion_sort.png)
+![Insertion Sort](https://github.com/joelbeedle/pseudocode-vscode/blob/main/img/insertion_sort.png?raw=true)
 
-![Binary Search](https://github.com/joelbeedle/pseudocode-vscode/blob/main/img/binary_search.png)
+![Binary Search](https://github.com/joelbeedle/pseudocode-vscode/blob/main/img/binary_search.png?raw=true)
 
-![Hello World](https://github.com/joelbeedle/pseudocode-vscode/blob/main/img/hello_world.png)
+![Hello World](https://github.com/joelbeedle/pseudocode-vscode/blob/main/img/hello_world.png?raw=true)
 =======
