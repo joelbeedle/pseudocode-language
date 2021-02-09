@@ -6,7 +6,7 @@
     "repository": {
         "url": "https://github.com/joelbeedle/pseudocode-vscode"
     },
-    "version": "1.0.3",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.53.0"
     },
@@ -14,16 +14,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "pseudo",
-            "aliases": ["Pseudocode", "pseudo"],
-            "extensions": [".pseudo"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "pseudo",
-            "scopeName": "source.pseudo",
-            "path": "./syntaxes/pseudo.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "pseudo",
+                "aliases": [
+                    "Pseudocode",
+                    "pseudo"
+                ],
+                "extensions": [
+                    ".pseudo"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "pseudo",
+                "scopeName": "source.pseudo",
+                "path": "./syntaxes/pseudo.tmLanguage.json"
+            }
+        ]
     }
 }
