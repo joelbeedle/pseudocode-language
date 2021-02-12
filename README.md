@@ -35,6 +35,10 @@ Added C style keywords
 
 Fixed bugs, and added more keywords & types
 
+## 1.4.1
+
+Update skipped versions due to massive additions. Added to Visual Studio Marketplace
+
 ## Images
 
 ![Insertion Sort](https://raw.githubusercontent.com/joelbeedle/pseudocode-vscode/main/img/insertion_sort.png)
